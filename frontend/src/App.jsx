@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Github, UploadCloud, Loader2, AlertCircle, Image, Video, Mic, X, CheckCircle, XCircle } from 'lucide-react';
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000';
+const API_URL = process.env.VITE_API_URL || 'http://localhost:8000';
 const PHOTO_THRESHOLD = 0.25
 const AUDIO_THRESHOLD = 0.5;
 
