@@ -1,4 +1,5 @@
 This project is a comprehensive, end-to-end system for detecting deepfakes in multiple modalities: images, videos, and audio. It uses a powerful ensemble of deep learning models and exposes the detection capabilities through a simple and fast REST API.
+Though not completely perfect, especially on modern, high quality deepfakes, it does showcases the fundamentals quality of models and importance of generalization in models to work better on "in-the-wild" deepfakes.
 
 ## Features
 
